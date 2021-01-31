@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 1200px;
+    height: 150vh;
+    padding: 0;
+    margin: auto;
+    /* margin-bottom: 300px; */
+
+}
+.heading{
+    display: flex;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    }
+    .col-2 img{
+        width: 25%;
+        padding: 30px 50px ;
+        transition: .5s;
+        border-radius: 50%;
+    }
+    .col-2 img:hover{
+        transform: translateY(-5px);
+    }
+    .col-2 h1{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .name{
+        text-align: right;
+        padding: 0 40px;
+        
+
+    }
+    .name h3{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(0, 26, 255);
+    }
+   .line{
+    width: 450px;
+    height: 5px;
+    background-color: orange;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+        
+    }
+    .address{
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .address a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    .address p{
+        font-size: 17px;
+    }
+    .address i{
+        color: rgb(0, 102, 255);
+        font-size: 20px;
+        align-items: center;
+        transition: .5s;
+    }
+    .address i:hover{
+        transform:  translateY(-3px);
+    }
+    .life{
+        margin-top: 50px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        
+    }
+    .life-col-2{
+        flex-basis: 50%;
+        max-width: 600px;
+    }
+    .life-col-2 h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .fa.fa-quote-right{
+        align-items: center;
+        margin-left: 580px;
+        color: orange;
+        line-height: 30px;
+    }
+    .fa.fa-quote-left{
+        color: orange;
+        line-height: 30px;
+    }
+    .life-col-2 p{
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        transition: .5s;
+    }
+    .life-col-2 p:hover{
+        transform: translateY(-5px);
+    }
+    .cup{
+        align-items: center;
+        padding: 0 0 0 100px ;
+        margin-top: -10px;
+    }
+    .fa.fa-trophy{
+        font-size: 50px;
+        color: orange;
+        transition: .5s;
+        float: left;
+        
+    }
+    .fa.fa-trophy:hover{
+        transform: translateY(-5px);
+    }
+    .content h3, p{
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .content{
+        left: 30px;
+    }
+    .content p{
+        font-style: normal;
+        font-size: 17px;
+        color: gray;
+        padding: 0 60px;
+        transition: none;
+    }
+    .content p:hover{
+        transform: none;
+    }
+    .content h3{
+        padding: 0 60px;
+    }
+    
+
+    /* intern */
+    .intern{
+        width: 65%;
+        float: left;
+        line-height: 25px;
+
+        
+    }
+    .fa.fa-calendar{
+        color: orange;
+         padding: 5px;
+    }
+     .fa.fa-location-arrow{
+        color: orange; 
+         padding: 5px;
+    }
+    .fa.fa-circle{
+        font-size: small;
+        align-items: center;
+        color: orange;
+        margin-top: -5px;
+        padding: 5px;
+    }
+    .intern p{
+        font-size: 17px;
+        margin-left: 10px;
+        align-items: center;
+        color: gray;
+    }
+    .intern h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .intern h3{
+        margin-left: 10px;
+        color:rgb(0, 102, 255);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    hr{
+        margin-top: 20px;
+        color: gray;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .side{
+        margin-left: 100px;
+        padding: 0 0 0 50px;
+        align-items: center;
+        height: 70px;
+        margin-top: -10px;
+        
+    }
+.skills h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.skills p{
+    font-size: 20px;
+        margin-left: 10px;
+        align-items: center;
+        color: gray;
+        margin-top: 5px;
+}
+.skills .line{
+    width: 350px;
+    height: 5px;
+    background-color: orange;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+        
+    }
+    .stars{
+        display: inline-block;
+        text-align: right;
+        margin-bottom: 5px;
+        position: relative;
+        color: orange;
+        flex: 1;
+    }
+    .skills h3{
+        font-size: 17px;
+        font-weight: 100;
+        line-height: 20px;
+        
+        color: royalblue;
+    }
+    .skills h6{
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 5px;
+        color: gray;  
+    }
+    .college{
+        margin: 20px 0;
+    }
+    .certificate{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .certificate hr{
+        margin-top: 10px;
+        color: gray;
+        margin-bottom: 10px;
+        width: 80%; 
+    }
+
+    #know{
+        width: 100%;
+        align-items: center;
+
+    }
+    #know h2{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+
+    @media only screen and (max-width:1000px){
+        .container{
+            width: 900px;
+            height: 150vh;
+            padding: 0;
+            margin: auto;
+            font-size: medium;
+        
+        }
+        .life-col-2{
+            flex-basis: 25%;
+            max-width: 600px;
+        }
+    }
